@@ -17,6 +17,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
+    justifyContent: 'center',
     background: 'url(images/home/home_bg.gif) no-repeat right'
   },
 };

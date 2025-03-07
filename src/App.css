@@ -6,7 +6,7 @@
   display: flex;
   height: 100vh;
   flex-direction: row;
-  min-width: 600px;
+  width: 100%;
 }
 
 .navbar-custom {
@@ -106,13 +106,9 @@ section.timeline-card-content div.card-description > p {
   margin-top: 60px;
 }
 
-#home {
-  justify-content: center;
-}
-
 @media (max-width: 1200px) {
   #home {
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
 }
 
@@ -126,6 +122,7 @@ section.timeline-card-content div.card-description > p {
     letter-spacing: .1em;
     text-indent: .2em;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -149,6 +146,20 @@ section.timeline-card-content div.card-description > p {
 
   .navbar__link:hover::after {
     width: 0;
+  }
+
+  #home {
+    align-items: center !important;
+    background-position: center !important;
+  }
+
+  #home h1 {
+    font-size: 3em !important;
+  }
+
+  #home .social {
+    position: relative;
+    margin-top: 10px !important;
   }
 
 }
