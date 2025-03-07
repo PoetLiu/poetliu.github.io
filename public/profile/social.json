@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/peng-liu-624b19135/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/PoetLiu"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:albertliumr@gmail.com"
+        }
+    ]
+}
