@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Albert.Dev/static/css/main.9e34acf8.css",
-    "main.js": "/Albert.Dev/static/js/main.33dc854a.js",
+    "main.css": "/Albert.Dev/static/css/main.d2aee0ba.css",
+    "main.js": "/Albert.Dev/static/js/main.ea1bc8a3.js",
     "static/js/124.242e9b31.chunk.js": "/Albert.Dev/static/js/124.242e9b31.chunk.js",
     "static/css/354.f438de64.chunk.css": "/Albert.Dev/static/css/354.f438de64.chunk.css",
     "static/js/354.fb71f269.chunk.js": "/Albert.Dev/static/js/354.fb71f269.chunk.js",
@@ -15,8 +15,8 @@
     "static/js/574.bcf94893.chunk.js": "/Albert.Dev/static/js/574.bcf94893.chunk.js",
     "static/js/585.36e57fb8.chunk.js": "/Albert.Dev/static/js/585.36e57fb8.chunk.js",
     "index.html": "/Albert.Dev/index.html",
-    "main.9e34acf8.css.map": "/Albert.Dev/static/css/main.9e34acf8.css.map",
-    "main.33dc854a.js.map": "/Albert.Dev/static/js/main.33dc854a.js.map",
+    "main.d2aee0ba.css.map": "/Albert.Dev/static/css/main.d2aee0ba.css.map",
+    "main.ea1bc8a3.js.map": "/Albert.Dev/static/js/main.ea1bc8a3.js.map",
     "124.242e9b31.chunk.js.map": "/Albert.Dev/static/js/124.242e9b31.chunk.js.map",
     "354.f438de64.chunk.css.map": "/Albert.Dev/static/css/354.f438de64.chunk.css.map",
     "354.fb71f269.chunk.js.map": "/Albert.Dev/static/js/354.fb71f269.chunk.js.map",
@@ -31,7 +31,7 @@
     "585.36e57fb8.chunk.js.map": "/Albert.Dev/static/js/585.36e57fb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e34acf8.css",
-    "static/js/main.33dc854a.js"
+    "static/css/main.d2aee0ba.css",
+    "static/js/main.ea1bc8a3.js"
   ]
 }
