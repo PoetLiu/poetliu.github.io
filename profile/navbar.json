@@ -1,0 +1,36 @@
+{
+    "logo" : {
+        "source": "images/logo.png",
+        "height" : 30,
+        "width" : 30,
+        "borderRadius": 15
+    },
+    "brand": "Albert.Dev",
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/#home"
+        },
+        {
+            "title": "About",
+            "href": "/#about"
+        },
+        {
+            "title": "Skills",
+            "href": "/#skills"
+        },
+        {
+            "title": "Experience",
+            "href": "/#experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/#projects"
+        },
+        {
+            "title": "Education",
+            "href": "/#education"
+        }
+    ]
+
+}

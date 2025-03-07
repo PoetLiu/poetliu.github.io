@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "dateText": "Sep 2023 - Dec 2024",
+            "title": "Postgraduate Certificate, Web Development",
+            "subtitle":"Conestoga College, Waterloo, CA",
+            "cardDetailedText": "GPA 3.82/4.0",
+            "icon" : {
+                "src": "images/education/conestoga.png"
+            }
+        },
+        {
+            "dateText": "Sep 2010 - June 2014",
+            "title": "Bachelor of Engineering in Automation",
+            "subtitle":"Southwest University, China",
+            "cardDetailedText": "helloworld",
+            "icon" : {
+                "src": "images/education/swu.png"
+            }
+        }
+    ]
+}

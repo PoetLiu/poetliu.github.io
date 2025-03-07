@@ -1,0 +1,19 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/albertdev.png",
+            "title": "Albert.Dev",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/PoetLiu/Albert.Dev"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript"
+            ]
+        }
+    ]
+}
