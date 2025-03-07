@@ -16,7 +16,6 @@ const styles = {
     height: '100vh',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
     alignItems: 'flex-start',
     background: 'url(images/home/home_bg.gif) no-repeat right'
   },
