@@ -1,43 +1,44 @@
 {
     "experiences": [
         {
-            "title": "Senior Backend Developer",
+            "title": "Senior Software Engineer,",
             "subtitle": "Tianyancha, 1k-5k employees",
             "workType": "Full-time",
             "workDescription": [
-                "Led the design and development of an incremental MySQL data sync system using Binlog, Hive,Hadoop, and the DIFF algorithm to handle 6.2TB across 1,160 tables.",
+                "Led the design and development of an incremental MySQL data sync system using Java, Spark, Hive, Hadoop, and Golang to handle 6.2TB across 1,160 tables.",
                 "Independently optimized performance with multi-threading and InnoDB driver enhancements, slashing MySQL update time for billions of records from 6 days to 31 hours.",
-                "Independently designed and developed a computing job scheduler using Spark Launcher and a blocking queue, automating job scheduling and monitoring to eliminate manual operations and reduce maintenance from 1,160 jobs to a single launcher job.",
-                "Independently designed and developed a distributed job execution module using XXL-Job, PostgreSQL, Kafka, Apollo, Eureka, and batch processing, supporting 570K daily jobs and computing results for up to 100 million rows per job.",
-                "Coached and trained junior engineers by conducting code and system design reviews, monitoring their progress, removing roadblocks, and managing risks effectively."
+                "Independently designed and developed a computing job scheduler using Java, Spark Launcher and a blocking queue, automating job scheduling and monitoring to eliminate manual operations and reduce maintenance from 1,160 jobs to a single launcher job.",
+                "Independently designed and developed a distributed job execution module using Java, Spring, XXL-Job, PostgreSQL, Kafka, Apollo, and batch processing, supporting 570K daily jobs and computing results for up to 100 million rows per job.",
+                "Coached and trained junior engineers by conducting code and system design reviews, monitoring their progress, removing roadblocks, and managing risks effectively.",
+                "Achieved an 'A' grade in the quarterly performance KPI evaluation for exceeding system optimization targets."
             ],
             "dateText": "July 2022 - June 2023"
         },
         {
-            "title": "Senior Backend Developer",
+            "title": "Senior Software Engineer,",
             "subtitle": "Tianrang, 100-500 employees",
             "workType": "Full-time",
             "workDescription": [
-                "Developed a distributed, high-performance REST API gateway using Spring Cloud Gateway, Redis, Prometheus, Grafana, and Kafka, enabling API forwarding, caching, QPS rate limiting, and request logging to support 86,4M requests per day.",
+                "Developed a distributed, high-performance REST API gateway using Java, Spring Cloud Gateway, Redis, Prometheus, Grafana, and Kafka, enabling API forwarding, caching, QPS rate limiting, and request logging to support 86,4M requests per day.",
                 "Independently optimized system performance using JProfiler, Flame Graphs, and monitoring metrics to identify bottlenecks. Addressed OOM crashes and long GC pauses, applying caching, singleton patterns, lock optimization, JVM tuning, and multi-thread pooling, increasing the distributed system's QPS from 2,000 to 12,000.",
-                "Developed a billing service using Redis, Lua scripts, Kafka, and TCC distributed transactions, capable of handling 3K QPS charging requests (P95 within 200ms).",
+                "Developed a billing service using Java, Spring Boot, Redis, Lua scripts, Kafka, and TCC distributed transactions, capable of handling 3K QPS charging requests (P95 < 200ms).",
                 "Developed a payment service integrating third-party gateways (AliPay and WeChat Pay), utilizing distributed locks, Redis, Kafka, and D+1 reconciliations to ensure idempotency and consistency, supporting 100+ payment requests per day.",
                 "Served as Scrum Master, managing risks and blockers while facilitating communication across cross-functional teams, including product managers, developers, and QAs."
             ],
             "dateText": "Oct 2019 - June 2022"
         },
         {
-            "title": "Backend Developer",
+            "title": "Full Stack Engineer,",
             "subtitle": "Unicloud.com, 1k-5k employees",
             "workType": "Full-time",
             "workDescription": [
-                "Independently designed and developed the core service for creating cloud ECS machines, driving the full 0 to 1 development cycle for a cloud Kubernetes SaaS product.",
+                "Independently developed the core service of a cloud-based Kubernetes SaaS product as a full-stack developer, using Java, Spring, and React, driving the entire development cycle from 0 to 1.",
                 "Independently Optimized system performance with thread pooling, async processing, and batch processing, reducing Kubernetes cluster deployment time by 34%."
             ],
             "dateText": "Aug 2018 - Sep 2019"
         },
         {
-            "title": "Backend Developer",
+            "title": "Software Engineer",
             "subtitle": "Fenglian, 100-500 employees",
             "workType": "Full-time",
             "workDescription": [
