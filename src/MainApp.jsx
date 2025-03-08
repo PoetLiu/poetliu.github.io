@@ -5,6 +5,7 @@ import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
 import Footer from './components/Footer';
+import ScrollToTop from "react-scroll-to-top";
 
 function MainApp() {
   const [data, setData] = useState(null);
@@ -40,6 +41,7 @@ function MainApp() {
               })}
           </Suspense>
         </Switch>
+        <ScrollToTop smooth />
       </main>
       <Footer></Footer>
     </div >

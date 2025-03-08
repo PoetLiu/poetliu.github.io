@@ -9,7 +9,7 @@
     "sections": [
         {
             "title": "Home",
-            "href": "/#home"
+            "href": "/"
         },
         {
             "title": "About",
