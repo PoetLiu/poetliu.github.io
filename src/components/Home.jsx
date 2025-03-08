@@ -37,7 +37,7 @@ function Home() {
 
   return data ? (
     <Fade>
-      <div style={styles.mainContainer}>
+      <div style={styles.mainContainer} id='home'>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: 'row' }}>
           <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
