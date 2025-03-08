@@ -4,9 +4,8 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: row;
-  width: 100%;
 }
 
 .navbar-custom {

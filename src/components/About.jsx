@@ -9,7 +9,7 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    padding: 10,
     display: 'flex',
     flexDirection: 'column',
     textAlign: 'left',
@@ -17,13 +17,13 @@ const styles = {
     justifyContent: 'center',
   },
   introImageContainer: {
-    margin: 10,
+    padding: 10,
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
   },
   introImage: {
-    borderRadius: 5
+    maxWidth: '100%'
   },
 };
 
@@ -63,10 +63,10 @@ function About(props) {
             ? (
               <Fade>
                 <Row>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" className='shadow rounded' />
+                  <Col style={styles.introImageContainer} className='col-12 col-lg-6'>
+                    <img style={styles.introImage} src={data?.imageSource} alt="profile" className='shadow rounded' />
                   </Col>
-                  <Col style={styles.introTextContainer}>
+                  <Col style={styles.introTextContainer} className='col-12 col-lg-6'>
                     {parseIntro(aboutMD)}
                   </Col>
                 </Row>
