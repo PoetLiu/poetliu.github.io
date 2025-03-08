@@ -40,10 +40,10 @@ function Skills(props) {
 
   return (
     <>
-      <Header title={header} />
+      <Header title={header} id='skills'/>
       {data ? (
         <Fade>
-          <div className="section-content-container" id='skills'>
+          <div className="section-content-container">
             <Container>
               {renderSkillsIntro(data.intro)}
               {data.skills?.map((rows) => (

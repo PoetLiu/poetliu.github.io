@@ -3,7 +3,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { withRouter } from 'react-router';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 const ExternalNavLink = styled.a`
   color: ${(props) => props.theme.navbarTheme.linkColor};
@@ -15,7 +15,7 @@ const ExternalNavLink = styled.a`
   }
 `;
 
-const InternalNavLink = styled(HashLink)`
+const InternalNavLink = styled(NavHashLink)`
   color: ${(props) => props.theme.navbarTheme.linkColor};
   &:hover {
     color: ${(props) => props.theme.navbarTheme.linkHoverColor};
@@ -94,6 +94,11 @@ const NavBar = () => {
                   className="navbar__link"
                   to={section.href}
                   theme={theme}
+                  scroll={(el) => {
+                    const yOffset = -100; // Adjust the offset to your liking
+                    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                  }}
                 >
                   {section.title}
                 </InternalNavLink>

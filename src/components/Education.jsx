@@ -48,10 +48,10 @@ function Education(props) {
 
   return (
     <>
-      <Header title={header}/>
+      <Header title={header} id='education'/>
       {data
         ? (
-          <div className="section-content-container" id='education'>
+          <div className="section-content-container">
             <Container>
               <Timeline
                 lineColor={theme.timelineLineColor}

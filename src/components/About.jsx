@@ -56,8 +56,8 @@ function About(props) {
 
   return (
     <>
-      <Header title={header} />
-      <div className="section-content-container" id='about'>
+      <Header title={header} id='about'/>
+      <div className="section-content-container">
         <Container>
           {data
             ? (

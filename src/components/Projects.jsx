@@ -34,10 +34,10 @@ const Projects = (props) => {
   const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>
-      <Header title={header} />
+      <Header title={header} id='projects'/>
       {data
         ? (
-          <div className="section-content-container" id='projects'>
+          <div className="section-content-container" >
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (

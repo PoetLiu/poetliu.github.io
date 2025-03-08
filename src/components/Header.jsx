@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import '../App.css';
 
 function Header(props) {
-  const { title } = props;
-  return <div className="header">{title}</div>;
+  const { id, title } = props;
+  return <div className="header" id={id}>{title}</div>;
 }
 
 Header.propTypes = {

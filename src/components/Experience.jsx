@@ -46,11 +46,11 @@ function Experience(props) {
 
   return (
     <>
-      <Header title={header} />
+      <Header title={header} id='experience'/>
 
       {data
         ? (
-          <div className="section-content-container" id='experience'>
+          <div className="section-content-container">
             <Container>
               <Timeline
                 lineColor={theme.timelineLineColor}

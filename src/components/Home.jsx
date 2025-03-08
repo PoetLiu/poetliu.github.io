@@ -4,6 +4,7 @@ import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
+import Header from './Header';
 
 const styles = {
   nameStyle: {
