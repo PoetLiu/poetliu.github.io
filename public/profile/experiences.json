@@ -29,7 +29,7 @@
         },
         {
             "title": "Full Stack Engineer,",
-            "subtitle": "Tsinghua Unigroup, 1k-5k employees",
+            "subtitle": "Unicloud.com-Tsinghua Unigroup, 1k-5k employees",
             "workType": "Full-time",
             "workDescription": [
                 "Independently developed the core service of a cloud-based Kubernetes SaaS product as a full-stack developer, using Java, Spring, and React, driving the entire development cycle from 0 to 1.",
@@ -39,7 +39,7 @@
         },
         {
             "title": "Software Engineer",
-            "subtitle": "NETIS SYSTEMS, 1k-5k employees",
+            "subtitle": "Fenglian-NETIS SYSTEMS, 1k-5k employees",
             "workType": "Full-time",
             "workDescription": [
                 "Developed backend software for QIHU 360 routers, including the design and implementation of REST APIs for the router web UI pages. Resolved router performance and stability issues multiple times, resulting in an 8% reduction in the probability of system lags and crashes.",
